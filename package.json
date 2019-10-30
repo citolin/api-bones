@@ -1,0 +1,49 @@
+{
+  "name": "app-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/.",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "comtele-sdk": "^1.1.6",
+    "connect-mongo": "^3.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "express-winston": "^4.0.1",
+    "fs-extra": "^8.0.1",
+    "is-md5": "0.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "mongoose": "^5.5.13",
+    "mongoose-beautiful-unique-validation": "^7.1.1",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "reverse-md5": "0.0.4",
+    "socket.io": "^2.2.0",
+    "unzip-stream": "^0.3.0",
+    "validate.js": "^0.13.1",
+    "winston": "^3.2.1",
+    "xlsx": "^0.14.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
+  }
+}
